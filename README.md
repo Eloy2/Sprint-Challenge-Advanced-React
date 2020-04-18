@@ -23,9 +23,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+
+If we remove hooks from the question then the main difference is syntax and that you have access to more methods such as shouldComponentUpdate(), getSnapshotBeforeUpdate(), etc.
+
 - [ ] Name three lifecycle methods and their purposes.
+
+The componentDidMount() method is called once right after the component renders. The componentDidUpdate() is called every time data in the component changes. The componentWillUnmount() is called right before a component is going to unmount.
+
 - [ ] What is the purpose of a custom hook?
+
+Custom hooks give us extended functionality which we can reuse anywhere in our app.
+
 - [ ] Why is it important to test our apps?
+
+Testing allows us to make sure our app is working as intended and there are no unexpected behaviors. It can also be used as documentation for our app.
+
 
 ## Project Set Up
 
